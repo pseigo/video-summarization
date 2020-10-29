@@ -3,16 +3,18 @@
 {% block title %}Summarizer{% endblock %}
 
 {% block content %}
-<h1>Summarizer</h1>
+<div class="hero">
+  <h1>Summarizer</h1>
 
-<p>This app generates summaries for YouTube videos based on their captions.</p>
+  <p>This app generates summaries for YouTube videos based on their captions.</p>
 
-<form>
-  <fieldset>
-    <label for="videoUrl">YouTube Video URL</label>
-    <input type="text" placeholder="https://www.youtube.com/watch?v=dQw4w9WgXcQ" id="videoUrl">
-    <input class="button-primary" type="submit" value="Summarize">
-  </fieldset>
-</form>
+  <form>
+    <fieldset>
+      <label for="videoUrl">YouTube Video URL</label>
+      <input type="text" placeholder="https://www.youtube.com/watch?v=dQw4w9WgXcQ" id="videoUrl">
+      <input class="button-primary" type="submit" value="Summarize">
+    </fieldset>
+  </form>
+</div>
 
 {% endblock %}
